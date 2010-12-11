@@ -1,0 +1,95 @@
+<object-stream>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>ForAll [2, 1]</activationId>
+  <rule>ForAll</rule>
+  <declarations>$cc=-----Customer-----)
+Name=Héron
+Surname Name=Nicolas
+Country=Fr
+-----Customer end-)(2); $c=-----Customer-----)
+Name=Héron
+Surname Name=Nicolas
+Country=A
+-----Customer end-)(1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>ForAll [4, 1]</activationId>
+  <rule>ForAll</rule>
+  <declarations>$cc=-----Customer-----)
+Name=Héron
+Surname Name=Nicolas
+Country=GB
+-----Customer end-)(4); $c=-----Customer-----)
+Name=Héron
+Surname Name=Nicolas
+Country=A
+-----Customer end-)(1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>1</type>
+  <factId>1</factId>
+  <objectToString>-----Customer-----)
+Name=Héron
+Surname Name=Nicolas
+Country=A
+-----Customer end-)</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>ForAll [4, 1]</activationId>
+  <rule>ForAll</rule>
+  <declarations>$cc=-----Customer-----)
+Name=Héron
+Surname Name=Nicolas
+Country=GB
+-----Customer end-)(4); $c=-----Customer-----)
+Name=Héron
+Surname Name=Nicolas
+Country=A
+-----Customer end-)(1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>ForAll [4, 1]</activationId>
+  <rule>ForAll</rule>
+  <declarations>$cc=-----Customer-----)
+Name=Héron
+Surname Name=Nicolas
+Country=GB
+-----Customer end-)(4); $c=-----Customer-----)
+Name=Héron
+Surname Name=Nicolas
+Country=A
+-----Customer end-)(1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>ForAll [2, 1]</activationId>
+  <rule>ForAll</rule>
+  <declarations>$cc=-----Customer-----)
+Name=Héron
+Surname Name=Nicolas
+Country=Fr
+-----Customer end-)(2); $c=-----Customer-----)
+Name=Héron
+Surname Name=Nicolas
+Country=A
+-----Customer end-)(1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>ForAll [2, 1]</activationId>
+  <rule>ForAll</rule>
+  <declarations>$cc=-----Customer-----)
+Name=Héron
+Surname Name=Nicolas
+Country=Fr
+-----Customer end-)(2); $c=-----Customer-----)
+Name=Héron
+Surname Name=Nicolas
+Country=A
+-----Customer end-)(1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+</object-stream>
