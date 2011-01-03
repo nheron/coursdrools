@@ -1,5 +1,6 @@
 package demo;
 
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -9,7 +10,7 @@ public class Product {
 
 	private String Id;
 	private String Name;
-	private Map<DateTime, Map<Currency, Price>> prices = new HashMap<DateTime, Map<Currency, Price>>();
+	private Map<Date, Map<Currency, Price>> prices = new HashMap<Date, Map<Currency, Price>>();
 	private Provider provider;
 
 	public String getId() {
@@ -43,7 +44,7 @@ public class Product {
 		this.provider = provider;
 	}
 
-	public void setPrice(DateTime startTime, Float price, Currency currency) {
+	public void setPrice(Date startTime, Float price, Currency currency) {
 		if (prices.containsKey(startTime) == false) {
 			Price newprice = new Price(price, currency);
 			Map<Currency, Price> priceMap = new HashMap<Currency, Price>();
@@ -72,11 +73,11 @@ public class Product {
 		// TODO Auto-generated constructor stub
 	}
 
-	public Map<DateTime, Map<Currency, Price>> getPrices() {
+	public Map<Date, Map<Currency, Price>> getPrices() {
 		return prices;
 	}
 
-	public void setPrices(Map<DateTime, Map<Currency, Price>> prices) {
+	public void setPrices(Map<Date, Map<Currency, Price>> prices) {
 		this.prices = prices;
 	}
 

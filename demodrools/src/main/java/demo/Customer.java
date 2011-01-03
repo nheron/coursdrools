@@ -1,6 +1,6 @@
 package demo;
 
-import org.joda.time.DateTime;
+import java.util.Date;
 
 public class Customer {
 	private String customerID;
@@ -8,7 +8,7 @@ public class Customer {
 	private String name;
 	private String maritalName;
 	private Gender gender;
-	private DateTime birthDate;
+	private Date birthDate;
 
 	public String getCustomerID() {
 		return customerID;
@@ -50,16 +50,16 @@ public class Customer {
 		this.gender = gender;
 	}
 
-	public DateTime getBirthDate() {
+	public Date getBirthDate() {
 		return birthDate;
 	}
 
-	public void setBirthDate(DateTime birthDate) {
+	public void setBirthDate(Date birthDate) {
 		this.birthDate = birthDate;
 	}
 
 	public Customer(String customerID, String surName, String name,
-			String maritalName, Gender gender, DateTime birthDate) {
+			String maritalName, Gender gender, Date birthDate) {
 		super();
 		this.customerID = customerID;
 		this.surName = surName;

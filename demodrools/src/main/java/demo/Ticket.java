@@ -1,14 +1,13 @@
 package demo;
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
-
-import org.joda.time.DateTime;
 
 public class Ticket {
 
 	private String Id;
-	private DateTime date;
+	private Date date;
 	private Float amount;
 	private Card loyaltyCard;
 	private Customer customer;
@@ -37,11 +36,11 @@ public class Ticket {
 		Id = id;
 	}
 
-	public DateTime getDate() {
+	public Date getDate() {
 		return date;
 	}
 
-	public void setDate(DateTime date) {
+	public void setDate(Date date) {
 		this.date = date;
 	}
 
