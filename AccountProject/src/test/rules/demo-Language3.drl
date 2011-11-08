@@ -43,7 +43,7 @@ rule "no customer"
 end
 rule "Exists"
 	when
-		Exists Account(  )
+		exists Account(  )
 	then
 		result.showText("Account exists");
 end
