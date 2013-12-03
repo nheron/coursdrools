@@ -2,14 +2,38 @@ package droolscours.loyalty.domains;
 
 public class TicketLine {
 	private static int numberLines = 0;
+	private String ticketID;
 	private Ticket ticket;
 	private int lineNumber;
-
+	private String productID;
 	private Product product;
 	private long quantity;
 	private Float price = null;
 	private Float lineTotal;;
+	private Ligneop op;
+	public Ligneop getOp() {
+		return op;
+	}
 
+	public String getProductID() {
+		return productID;
+	}
+
+	public void setProductID(String productID) {
+		this.productID = productID;
+	}
+
+	public String getTicketID() {
+		return this.ticketID;
+	}
+
+	public void setTicketID(String ticketID) {
+		this.ticketID = ticketID;
+	}
+
+	public void setOp(Ligneop op) {
+		this.op = op;
+	}
 	private boolean valid;
 
 	public int getLineNumber() {
