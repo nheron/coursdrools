@@ -51,7 +51,3 @@ rule "opPameprs"
 		$l.getOp().setNomOP("opPameprs");
 end
 
-
-
-
-
